@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Handjet", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+}
+p{
+    font-size: 20px;
+}
+.layout{
+    max-width: 700px;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+header{
+    color: #fff;
+    background-color: black;
+}
+form input{
+    display: inline;
+    padding: 10px 0;
+    text-align: center;
+    border: solid 3px black;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.button{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 30px;
+    border: solid 3px black;
+    border-radius: 7px;
+    padding: 15px 30px;    
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+    font-family: "Handjet", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+    border: solid 3px #fff;
+}
+main{
+    background-color: gray;
+    padding: 30px 0;
+}
+footer{
+    background-color: black;
+    color: #fff;
+}
+.mensagemSus{
+    color: #fff;
+    background-color: black;
+}
+.error{
+    color: #fff;
+    background-color: red;
+}
